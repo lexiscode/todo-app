@@ -23,7 +23,7 @@ class ManipulateData
      public function newData($conn)
      {
              
-        // Update the data into the database server
+        // Add the data into the database server
         $sql = "INSERT INTO tasks_record (task, due_date)
                 VALUES (:task_message, :task_date)";
  
@@ -35,13 +35,9 @@ class ManipulateData
         $stmt->bindValue(':task_date', $this->task_date, PDO::PARAM_STR);
  
         // Executes a PDO prepared statement
-        $result = $stmt->execute();
- 
-        if ($result){
+        if ($stmt->execute()){
             
-            $this->id = $conn->lastInsertId();
             return true;
-
         }
  
     }
