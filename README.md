@@ -2,7 +2,7 @@
 
 The Todo App with PHP is a simple web application that allows users to manage their tasks and stay organized. It is built using PHP, HTML, CSS, and MySQL for database storage.
 
-![Todo App Screenshot](todo_app_screenshot.png)
+![Screenshot (925)](https://github.com/lexiscode/todo-app/assets/42210784/ba39354f-2b8d-43a0-94b8-667113942aaa)
 
 ## Features
 
@@ -31,10 +31,6 @@ Follow these steps to set up the Todo App on your local machine:
 5. You can mark a task as "completed" or "incomplete" by clicking on the checkbox next to each task.
 6. Use the sorting and filtering options to organize your tasks according to your preference.
 7. To edit or delete a task, click on the respective icons next to the task in the list.
-
-## Screenshots
-
-![Dashboard](screenshots/dashboard.png)
 
 ## Technologies Used
 
